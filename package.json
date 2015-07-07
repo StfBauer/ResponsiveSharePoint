@@ -1,0 +1,90 @@
+{
+  "private": true,
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.1.2",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-imagemin": "^0.9.3",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-filerev": "^2.2.0",
+    "grunt-mocha": "^0.4.12",
+    "grunt-modernizr": "^0.6.0",
+    "grunt-newer": "^1.1.0",
+    "grunt-postcss": "^0.5.3",
+    "grunt-sass": "^1.0.0",
+    "grunt-svgmin": "^2.0.1",
+    "grunt-usemin": "^3.0.0",
+    "grunt-wiredep": "^2.0.0",
+    "jit-grunt": "^0.9.1",
+    "jshint-stylish": "^1.0.1",
+    "time-grunt": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "name": "responsivesharepoint",
+  "description": "Responsive SharePoint and Office 365 built on Yeoman",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.1.3",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.12.3",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-uglify": "^0.8.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-filerev": "^2.3.1",
+    "grunt-mocha": "^0.4.13",
+    "grunt-modernizr": "^0.6.0",
+    "grunt-sass": "^1.0.0",
+    "grunt-postcss": "^0.5.4",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-newer": "^1.1.1",
+    "grunt-svgmin": "^2.0.1",
+    "jit-grunt": "^0.9.1",
+    "grunt-usemin": "^3.0.0",
+    "grunt-wiredep": "^2.0.0",
+    "time-grunt": "^1.2.1",
+    "jshint-stylish": "^1.0.2",
+    "grunt-concurrent": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StfBauer/ResponsiveSharePoint.git"
+  },
+  "keywords": [
+    "SharePoint",
+    "Office",
+    "365",
+    "Resposponsive",
+    "Web",
+    "Design",
+    "SASS",
+    "Yeoman"
+  ],
+  "author": "Stefan Bauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StfBauer/ResponsiveSharePoint/issues"
+  },
+  "homepage": "https://github.com/StfBauer/ResponsiveSharePoint#readme"
+}
