@@ -1,0 +1,14 @@
+#s4-titlerow,
+#contentRow{
+	@include container();
+}
+#titleAreaBox{
+	@include full;
+}
+#sideNavBox{
+	@include span(2 of 10);
+}
+#contentBox{
+	min-width: 0px;
+	@include span(8 of 10);
+}
