@@ -6,18 +6,16 @@ Responsive Tutorial for SharePoint and Office 365 built on Yeoman.
 # Requirements
 This solution it built with Yeoman and contains all require componentent to get started.
 
+Before you follow the steps below make sure you have yeoman installed
+
 1. Clone this repository
 2. Install npm
-```
-npm install
-```
+``` npm install ```
 3. Install bower
-```
-bower install
-```
+``` bower install ```
 4. Run Project
-```
-grunt serve
-```
+``` grunt serve ```
 5. Embed the style sheet file in your SharePoint
 http://localhost:9000/styles/main.css
+
+
