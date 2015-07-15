@@ -8,18 +8,20 @@ This solution it built with [Yeoman](http://yeoman.io) and contains all require 
 * [How I develop in SharePoint and Office 365 now](http://www.n8d.at/blog/how-i-develop-in-sharepoint-and-office-365-now/)
 
 # Project Setup
-1. Clone this repository
-2. Install npm
-``` npm install 
+Clone this repository
+Install npm
+``` 
+npm install 
 ```
-3. Install bower
-``` bower install 
+Install bower
+``` 
+bower install 
 ```
-4. Run Project
-``` grunt serve 
+Run Project
+``` 
+grunt serve 
 ```
-
-5. Embed the style sheet file in your SharePoint
+Embed the style sheet file in your SharePoint
 http://localhost:9000/styles/main.css
 
 # License
