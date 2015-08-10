@@ -1,0 +1,49 @@
+.ms-core-listMenu-horizontalBox {
+    border: 1px lime solid;
+    &::before {
+        content: "Menu";
+        color: $red;
+        display: inline-block;
+        font-family: office365icons, o365Icons;
+        content: "\e020  Menu";
+        font-size: 1.5em;
+        padding: 0.2em;
+    }
+    .ms-core-listMenu-root {
+        display: none;
+    }
+    &:hover,
+    &:focus,
+    .showBurger {
+        &::before {
+            background-color: $red;
+            color: white;
+        }
+        .ms-core-listMenu-root {
+            box-sizing: border-box;
+            position: absolute;
+            left: 0px;
+            width: 100%;
+            display: block;
+            background-color: $red;
+            color: white;
+            padding: 0.35em;
+            .static {
+                display: block;
+                line-height: 1.25em;
+                padding: 0.25em 0.5em;
+            }
+            .menu-item {
+                display: block;
+                color: white;
+                margin: 0px;
+                &:hover {
+                    background-color: $orange;
+                }
+            }
+        }
+        .static.ms-navedit-editArea {
+            display: none;
+        }
+    }
+}
