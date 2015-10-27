@@ -1,0 +1,20 @@
+// Hide Size options from ribbon
+li[id^='Ribbon.ContextualTabs.Media.Options.Size'] {
+    display: none;
+}
+
+// Resize video to available space
+.mediaPlayerContainer {
+    video {
+    	// or add the maximum width of your videos here
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+}
+#sideNavBox{
+	display: none;
+}
+#contentBox{
+	@include full;
+}

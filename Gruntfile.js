@@ -62,7 +62,8 @@ module.exports = function (grunt) {
     browserSync: {
       options: {
         notify: false,
-        background: true
+        background: true,
+        https: true
       },
       livereload: {
         options: {
