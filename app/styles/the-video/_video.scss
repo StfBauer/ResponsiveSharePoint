@@ -12,9 +12,3 @@ li[id^='Ribbon.ContextualTabs.Media.Options.Size'] {
         height: auto;
     }
 }
-#sideNavBox{
-	display: none;
-}
-#contentBox{
-	@include full;
-}

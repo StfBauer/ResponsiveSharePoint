@@ -1,15 +1,14 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>ResponsiveSharePoint</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
@@ -23,52 +22,58 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    
-  </head>
-  <body>
+</head>
+
+<body>
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="content">
-      <div class="logo-cont"><a href="http://www.n8d.at/blog/"><img src="images/n8d-logo-web.svg" class="logo"></a></div>
-      <h1>Responsive SharePoint</h1>
-      <p>Embed simply embed the link to the style sheet of this project in your SharePoint.</p>
-      <a href="http://localhost:9000/styles/main.css">http://localhost:9000/styles/main.css</a>
-      <p>Please make sure you check to check "<a href="http://www.n8d.at/blog/how-to-use-css-and-javascript-files-from-yeoman-directly-in-sharepoint/">How to use css and javascript files from yeoman directly in sharepoint</a>" to make sure your style sheet can be loaded.</p>
-      <p>Location of files in project:<P>
-      <ol>
-        <li>Apply grid system to SharePoint using SUSY<br>
-            app/styles/the-grid<br>
-            <a href="http://www.n8d.at/blog/apply-grid-system-to-sharepoint-using-susy/">Blog Post</a>
-        </li>
-        <li>Create Burger Menu<br>
-            app/styles/the-burger<br>
-            <a href="http://www.n8d.at/blog/pure-css-burger-menu/">Blog Post</a>
-        </li>
-      </ol>
-
+        <div class="logo-cont">
+            <a href="http://www.n8d.at/blog/"><img src="images/n8d-logo-web.svg" class="logo"></a>
+        </div>
+        <h1>Responsive SharePoint</h1>
+        <p>Embed simply embed the link to the style sheet of this project in your SharePoint.</p>
+        <a href="http://localhost:9000/styles/main.css">http://localhost:9000/styles/main.css</a>
+        <p>Please make sure you check to check "<a href="http://www.n8d.at/blog/how-to-use-css-and-javascript-files-from-yeoman-directly-in-sharepoint/">How to use css and javascript files from yeoman directly in sharepoint</a>" to make sure your style sheet can be loaded.</p>
+        <p>Location of files in project and link to blog posts:</p>
+        <ol>
+            <li><a href="http://www.n8d.at/blog/apply-grid-system-to-sharepoint-using-susy/" target="_blank">Apply grid system to SharePoint using SUSY</a>
+                <br>app/styles/the-grid
+            </li>
+            <li><a href="http://www.n8d.at/blog/pure-css-burger-menu/" target="_blank">Create Burger Menu</a>
+                <br>app/styles/the-burger
+            </li>
+            <li><a href="http://www.n8d.at/blog/responsive-video-enhance-sharepoint-default-player/" target="_blank">Responsive Video</a>
+                <br>app/styles/the-video
+            </li>
+        </ol>
     </div>
-
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-
-    
-
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
-
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
+    (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function() {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = 'https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
     </script>
-  </body>
+</body>
+
 </html>

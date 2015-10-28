@@ -11,7 +11,7 @@ This solution it built with [Yeoman](http://yeoman.io) and contains all require 
 Clone this repository
 Install npm
 ``` 
-npm install 
+npm install
 ```
 Install bower
 ``` 
@@ -23,6 +23,12 @@ grunt serve
 ```
 Embed the style sheet file in your SharePoint
 http://localhost:9000/styles/main.css
+
+# Blog Posts covered in this project
+
+-  [Apply grid system to SharePoint using SUSY](http://www.n8d.at/blog/apply-grid-system-to-sharepoint-using-susy/)
+-  [Create Burger Menu](http://www.n8d.at/blog/pure-css-burger-menu/)
+-  [Responsive Video](http://www.n8d.at/blog/responsive-video-enhance-sharepoint-default-player/)
 
 # License
 The MIT License (MIT)
