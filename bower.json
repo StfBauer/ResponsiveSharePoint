@@ -4,7 +4,8 @@
   "dependencies": {
     "jquery": "~2.1.4",
     "modernizr": "~2.8.3",
-    "susy": "~2.2.5"
+    "susy": "~2.2.5",
+    "sass-mediaqueries": "~1.6.1"
   },
   "devDependencies": {
     "chai": "~3.0.0",

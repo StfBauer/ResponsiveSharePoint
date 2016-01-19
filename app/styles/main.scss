@@ -1,5 +1,6 @@
 // bower:scss
 @import "susy/sass/_susy.scss";
+@import "sass-mediaqueries/_media-queries.scss";
 // endbower
 
 // The base definitions
@@ -14,3 +15,9 @@
 
 // Responsive Video
 @import "the-video/video";
+
+// Figure with Caption
+@import "the-figure-caption/figure";
+
+// Responsive list forms
+@import "the-forms/forms";

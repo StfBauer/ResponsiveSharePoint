@@ -7,8 +7,10 @@
 }
 #sideNavBox{
 	@include span(2 of 10);
+	display: none;
 }
 #contentBox{
 	min-width: 0px;
 	@include span(8 of 10);
+	margin: 0px;
 }

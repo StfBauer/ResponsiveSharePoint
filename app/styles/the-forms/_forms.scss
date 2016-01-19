@@ -1,0 +1,49 @@
+// Screeen comes from sass mediaqueries
+@include screen(0, 480) {
+    #contentRow {
+        width: auto;
+    }
+    #contentBox {
+        @include span(full no-gutter);
+    }
+    .ms-formtable {
+        box-sizing: border-box;
+        display: block;
+        min-width: 280px;
+    }
+    .ms-formlabel {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .ms-formbody {
+        box-sizing: border-box;
+        display: block;
+        // make sure that width of html element will be ignored
+        width: auto !important;
+        // subject to be changed
+        max-width: 280px;
+        padding: 0 0 0.5em 0;
+        tr {
+            display: block;
+        }
+        // Styling of rich text editor field;
+        .ms-rtestate-field {
+            box-sizing: border-box;
+            width: 100%;
+            min-width: 0px;
+        }
+        .sp-peoplepicker-topLevel {
+            width: auto;
+        }
+        input[type="radio"] {
+            width: 24px;
+            height: 24px;
+        }
+        .ms-long {
+            box-sizing: border-box;
+            width: 100%;
+            min-width: 270px;
+        }
+    }
+}

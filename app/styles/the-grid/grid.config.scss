@@ -13,7 +13,7 @@ $susy: (
   debug: (
     image: hide,
     color: rgba(green, .25),
-    output: overlay, // background | overlay
+    output: background, // background | overlay
     toggle: bottom right,
     ),
   use-custom: (
